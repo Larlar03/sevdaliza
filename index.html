@@ -13,23 +13,30 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="style/home.css">
-    <title>One</title>
+    <title>Sevdaliza</title>
 </head>
 
 <body>
-    <div id="slideout-menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projectslist.html">Projects</a></li>
-            <li><a href="about.html"></a>About</li>
-            <li>
-                <input type="text" placeholder="Search...">
-            </li>
-        </ul>
-    </div>
+    <header>
+        <div id="mob-logo"><a href="index.html"><img src="img/sev_logo.png" alt="One Logo"></a></div>
+        <button class="toggle-overlay button-icon"></button>
+    </header>
+    <aside>
+        <div class="outer-close toggle-overlay">
+            <a class="close"><span></span></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#releases">Releases</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </aside>
 
-    <nav>
-        <div id="logo-img"><a href="index.html"><img src="img/logo.png" alt="One Logo"></a>
+    <div id="desk-nav">
+        <div id="logo-img"><a href="index.html"><img src="img/sev_logo.png" alt="Sevdaliza Logo"></a>
         </div>
         <div id="menu-icon">
             <i class="fas fa-bars"></i>
@@ -37,103 +44,219 @@
         </div>
         <ul>
             <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="projectslist.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li>
-                <div class="search-field">
-                    <input type="text" placeholder="Search...">
-                </div>
-            </li>
+            <li><a href="#releases">Releases</a></li>
+            <li><a href="#tour">Tour</a></li>
+            <li><a href="#about">About</a></li>
         </ul>
-    </nav>
-
-    <div id="searchbox">
-        <input type="text" placeholder="Search">
     </div>
 
     <div id="banner">
-        <h1>sevDALIZA</h1>
+        <h1>Sevdaliza</h1>
         <h3>Sun, 23, 32'26", 9n08. Moon, 6, 12'39", 19n55</h3>
     </div>
     <main>
-        <a href="projectslist.html">
-            <h2 class="section-heading">Projects</h2>
-        </a>
-
-        <section>
+        <!--Releases-->
+        <section id="releases">
+            <h2 class="section-heading">Releases</h2>
             <div class="card">
                 <div class="card-image">
-                    <a href="projectpost.html">
-                        <img src="img/1.jpg" alt="Card Image">
-                    </a>
+                    <img src="img/the_calling.jpg" alt="Card Image">
                 </div>
                 <div class="card-description">
                     <a href="projectpost.html">
-                        <h3>Sed Non Isi</h3>
+                        <h3>The Calling</h3>
                     </a>
+                    <div class="streaming">
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/playlist?list=PLwNLp5N0kbpQ4Xt0dOe-gRMMe74HVfCT1"
+                                    target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://music.apple.com/nl/album/the-calling/1361679853?l=en" target="_blank">
+                                    <i class="fab fa-apple"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://open.spotify.com/album/1bTEsAzifIdXTn7xpo9eGm?si=clAFKOQCR4a7wC3AioKg0g"
+                                    target="_blank">
+                                    <i class="fab fa-spotify"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
-                <a href="projectpost.html" class="btn btn-outline-primary btn-readmore">View</a>
             </div>
 
             <div class="card">
                 <div class="card-image">
                     <a href="projectpost.html">
-                        <img src="img/2.jpg" alt="Card Image">
+                        <img src="img/ison.jpg" alt="Card Image">
                     </a>
+
                 </div>
                 <div class="card-description">
                     <a href="projectpost.html">
-                        <h3>Sed Non Isi</h3>
+                        <h3>Ison</h3>
                     </a>
+                    <div class="streaming">
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=znV9KDsNtXY&feature=youtu.be" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://music.apple.com/us/album/ison/1314724379" target="_blank">
+                                    <i class="fab fa-apple"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://open.spotify.com/album/1QVdHImfz9bh1slzqUTsGF" target="_blank">
+                                    <i class="fab fa-spotify"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
-                <a href="projectpost.html" class="btn btn-outline-primary btn-readmore">View</a>
             </div>
             <div class="card">
                 <div class="card-image">
                     <a href="projectpost.html">
-                        <img src="img/3.jpg" alt="Card Image">
+                        <img src="img/children_of_silk.jpg" alt="Card Image">
                     </a>
                 </div>
                 <div class="card-description">
                     <a href="projectpost.html">
-                        <h3>Sed Non Isi</h3>
+                        <h3>Children of Silk</h3>
                     </a>
+                    <div class="streaming">
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=UkjU9ladxKs" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://music.apple.com/us/album/children-of-silk-ep/1146238261"
+                                    target="_blank">
+                                    <i class="fab fa-apple"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://open.spotify.com/album/3fO1UKypjnSgJekzOiYMnI" target="_blank">
+                                    <i class="fab fa-spotify"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
 
                 </div>
-                <a href="projectpost.html" class="btn btn-outline-primary btn-readmore">View</a>
             </div>
 
             <div class="card">
                 <div class="card-image">
                     <a href="projectpost.html">
-                        <img src="img/4.jpg" alt="Card Image">
+                        <img src="img/the_suspended_kid.jpg" alt="Card Image">
                     </a>
                 </div>
                 <div class="card-description">
                     <a href="projectpost.html">
-                        <h3>Sed Non Isi</h3>
+                        <h3>The Suspended Kid</h3>
                     </a>
+                    <div class="streaming">
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=wpDQeVKEq_Y&list=PLwNLp5N0kbpQqnDymWRxcdU8l6lUjYkRB"
+                                    target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://music.apple.com/us/album/the-suspended-kid-ep/1146260160"
+                                    target="_blank">
+                                    <i class="fab fa-apple"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://open.spotify.com/album/0TT7gSYro7GSKZwUlPefBf" target="_blank">
+                                    <i class="fab fa-spotify"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
-                <a href="projectpost.html" class="btn btn-outline-primary btn-readmore">View</a>
             </div>
+        </section>
+
+        <!--Tour-->
+        <section id="tour">
+            <div id="banner-tour">
+                <h1>Tour</h1>
+                <h3>No upcoming concerts or festivals</h3>
+                <a href="https://www.songkick.com/artists/5195363-sevdaliza" target="_blank"
+                    class="btn btn-outline-primary btn-tickets">Stay Updated</a>
+            </div>
+
+        </section>
+
+        <!--About-->
+        <section id="about">
+            <h2 class="section-heading">Sevda Alizadeh</h2>
+            <div id="post-container">
+                <section id="blogpost">
+                    <div class="card">
+                        <div class="card-image"><img src="img/about.jpg" alt="Image"></div>
+
+                        <div class="card-description">
+                            <p>Sevdaliza, is an Iranian-Dutch autodidactic singer, songwriter, director and composer.
+                                Her creations contrast husky vocals with cutting strings and bass lines setting an
+                                enigmatic mood.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        </div>
         </section>
 
         <footer>
             <div id="social-media-footer">
                 <ul>
                     <li>
-                        <a href="#">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/sevdaliza_/" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.youtube.com/channel/UCONnf7g7QfOqzM3etLECtUA" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/SEVDALIZAMUSIC/" target="_blank">
                             <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/5MraexJKZDrQYzS98kNwie?autoplay=true&v=A"
+                            target="_blank">
+                            <i class="fab fa-spotify"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://music.apple.com/us/artist/sevdaliza/571173217" target="_blank">
+                            <i class="fab fa-apple"></i>
                         </a>
                     </li>
                 </ul>
@@ -152,7 +275,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
     </script>
-    <script src="main.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>
