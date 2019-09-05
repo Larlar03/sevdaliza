@@ -14,7 +14,8 @@ body {
         text-decoration: none;
     }
 
-    header, aside {
+    header,
+    aside {
         display: none;
     }
 
@@ -248,9 +249,13 @@ body {
 
         /* About */
         #about {
-            .card-image {
-                img {
-                    width: 100%;
+            .card {
+                margin: 0 auto;
+
+                .card-image {
+                    img {
+                        width: 100%;
+                    }
                 }
             }
         }
@@ -325,7 +330,8 @@ body {
                 img {
                     width: 80%;
                 }
-            } 
+            }
+
             button {
                 top: 5px;
                 padding: 20px 25px;
@@ -523,7 +529,8 @@ body {
                 img {
                     width: 50%;
                 }
-            } 
+            }
+
             button {
                 top: 5px;
                 padding: 20px 25px;
@@ -652,6 +659,7 @@ body {
             height: 85px;
             cursor: pointer;
         }
+
         main {
             section {
                 .section-heading {
@@ -706,7 +714,8 @@ body {
                 img {
                     width: 40%;
                 }
-            } 
+            }
+
             button {
                 top: 5px;
                 padding: 20px 25px;
